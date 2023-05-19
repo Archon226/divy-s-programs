@@ -4,15 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wassup chat app</title>
+    <title>Alumnet  chat app</title>
     <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+        }
+        
+        .chat__section {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .brand img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        
+        .brand h1 {
+            font-size: 24px;
+            color: #007bff;
+        }
+        
+        .message__area {
+            height: 300px;
+            background-color: #f9f9f9;
+            border: 1px solid #eaeaea;
+            border-radius: 3px;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #eaeaea;
+            border-radius: 3px;
+            resize: none;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+    </style>
 </head>
 
 <body>
     <section class="chat__section">
         <div class="brand">
             <img height="40" src="/wassup.png" alt="">
-            <h1>Wassup</h1>
+            <h1>Alumnet</h1>
         </div>
         <div class="message__area"></div>
         <div>
